@@ -1,0 +1,11 @@
+{
+  "llm.api_base": "http://localhost:8080/v1",
+  "llm.api_key": "not-needed",
+  "llm.api_type": "openai",
+  "llm.model": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+  "execution_service.kernel_mode": "local",
+  "tracing.enabled": true,
+  "tracing.exporter": "otlp",
+  "tracing.endpoint": "http://127.0.0.1:4317",
+  "session.orchestrator_type": "langgraph"
+}
