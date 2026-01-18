@@ -32,7 +32,7 @@ graph TD
     end
     
     subgraph "Intelligence Layer"
-        Planner -->|Inference| MLX[MLX Local LLM (Qwen 2.5)]
+        Planner -->|Inference| MLX["MLX Local LLM (Qwen 2.5)"]
         Coding -->|Inference| MLX
     end
     
